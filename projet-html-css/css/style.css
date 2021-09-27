@@ -1,0 +1,170 @@
+html,body{
+    margin:0;
+    height:100%
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+h2,h3,h4{
+    text-align:center
+}
+
+header{
+    background-image: url('../images/fond.jpg');
+    min-height: 30vh;
+    display:flex;
+    align-items: center;
+    background-size: cover;
+    background-position-y: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left:0;
+    width:50%;
+    
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+    background-color: #000000;
+    position:sticky;
+    position: -webkit-sticky;
+    top:0;
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a:hover{
+    color: violet
+}
+
+main{
+    margin: 0 12% 5px 12%;
+    flex:1
+}
+
+#container{
+    display:flex;
+}
+
+#content{
+    flex:1
+}
+
+#competences div{
+    display:flex;
+    align-items: center;
+}
+
+#competences img{
+    width:200px;
+    height:auto;
+}
+
+aside{
+    width:300px;
+}
+
+aside img{
+    width: 100%;
+    height:auto
+}
+
+.img-rea{
+    display: flex;
+}
+
+.img-rea img{
+    width: 100%;
+    height: auto;
+}
+
+.img-rea div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:5px
+}
+
+footer{
+    background-color: #808080;
+    min-height:15vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+/* FORM */
+
+#form-container{
+    display:flex;
+    justify-content: center;
+}
+
+form{
+    width:50%
+}
+
+input[type=email], input[type=text],input[type=submit], textarea{
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+fieldset{
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+}
+
+input[type=submit]{
+    cursor: pointer
+}
+
+input[type=submit]:hover{
+    background-color: violet;
+}
+
+/* END FORM */
+
+@media(max-width: 1400px){
+    nav ul{
+        width:70%
+    }
+    aside{
+        display:none
+    }
+}
+
+@media(max-width: 992px){
+    nav ul{
+        width:100%;
+        justify-content: space-around;
+        font-size: 10px;
+    }
+
+    #competences div, .img-rea{
+        flex-direction: column;
+    }
+
+    main{
+        margin: 0 16px 5px 16px;
+    }
+}

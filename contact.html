@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon site 2</title>
+    <link rel="stylesheet" href="maquette_no_2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <a class="navbar-brand" href="page_accueil.html">91xwriter - Alexandre Diakité</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+
+            <li class="nav-item">
+            <button type= "button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Accès membres</button>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="page_accueil.html">Accueil</a>
+              </li>
+
+
+                <li class="nav-item">
+                <a class="nav-link" href="#realisation">Mes réalisations</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Les trains</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="z5600.html">Z5600</a>
+                        <a class="dropdown-item" href="#">Z8800</a>
+                        <a class="dropdown-item" href="#">Z20500</a>
+                        <a class="dropdown-item" href="#">Z22500</a>
+                        <a class="dropdown-item" href="#">Z20900</a>
+
+                        </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                
+                    <li class="nav-item">
+                <a class="nav-link" href="contact.html">Me contacter</a>
+                </li>
+                
+            </ul>
+            </div>
+        </nav>
+       
+       
+        </header>
+        <main>
+             
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Connexion</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                <form method="post">
+                    <div class="form-group">
+                    <label for="e-mail" class="col-form-label">E-mail:</label>
+                    <input type="email" class="form-control" id="mail" required>
+                    </div>
+                    <div class="form-group">
+                    <label for="password" class="col-form-label">Mot de passe:</label>
+                    <input type="password" class="form-control" id="password" required>
+                
+                   
+                    </div>
+                </form>
+                </div>
+                <div class="modal-footer">
+               
+                    <button type="button" class="btn btn-warning">Se connecter</button>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <section class="py-5" >
+                    <h2 class="text-center" id="mecontacter">Me contacter</h2>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                    <form action="#" method="POST" enctype="multipart/form-data">
+                                
+                                <div class="form-row">
+                                <div class="form-group col">
+                                <label for="name">Nom</label>
+                            <input type= "text"  class="form-control name="name" id="name" required>
+                                </div>
+                                
+                                                <div class="form-group col">
+                                                <label for="firstname">Prénom</label>
+                                                <input type="text" class="form-control  name="firstname" id="firstname" required>
+                                                    </div>
+
+                                    <div class="form-group col">
+                                        <label for="email">E-mail</label>
+                                        <input  type="email" class="form-control name="email" id="email" required>
+                                            </div>
+                                        
+                                        
+                                          
+                                             
+                       
+                                              <div class="custom-file">
+                        
+                                                <input type="file" class="custom-file-input" id="customFile">
+                                                <label class="custom-file-label" for="customFile">Choose file</label>
+                                               <div class="py-2"></div>
+                                                <input type="submit" class="btn btn-warning btn-lg" value="Envoyer">
+                                               
+                                            </div>
+                        
+                    </form>
+                </form>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+                </section>
+                    
+
+            
+
+                
+                                    
+                                    </main>
+                                    <footer class="py-5" id="footfaq">
+                        <div class="container">
+                                        <div class="row">
+                                            <div class="col-2">
+                        <h5 class="py-2">Plan du site</h5>
+                        <ul>
+                            <li>
+                                <a href="#realisation">Mes réalisations</a>
+                                </li>
+                                <li>
+                                <a href="#">Me contacter</a>
+                                </li>
+                                
+                        </ul>
+                        
+                                            </div>
+                            <div class="col-2 offset-8">
+                                <h5>Réseaux sociaux</h5>
+                                <a href="https://www.instagram.com/91xwriter/"> <img src="./images/insta3.png" alt="logo Instagram"></a>
+                                <a href="https://www.instagram.com/91xwriter/"> <img src="./images/insta3.png" alt="logo Instagram"></a>
+                                <a href="https://www.instagram.com/91xwriter/"> <img src="./images/insta3.png" alt="logo Instagram"></a>
+                            </div>
+                        
+                        </div>
+                        </div>
+
+
+            </footer>
+        </body>
+        </html>

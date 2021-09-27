@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo portofolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header><!-- un commentaires -->
+        <h1>Charly Wandja</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index.html#competences">Mes compétences</a></li>
+            <li><a href="realisation.html">Mes réalisations</a></li>
+            <li><a href="contact.html">Me contacter</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Me contacter</h2>
+        
+        <div id="form-container">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Tu es un(e)</legend>
+                    <input type="radio" name="sexe" value="0" id="homme" /> 
+                    <label for="homme">Homme</label>
+                    <input type="radio" name="sexe" value="1" id="femme" /> 
+                    <label for="femme">Femme</label>
+                </fieldset>
+                
+                <div>
+                    <label for="lastname">Nom :</label>
+                    <input type="text" id="lastname" name="name" />
+                </div>
+                
+                <div>
+                    <label for="firstname">Prenom :</label>
+                    <input type="text" id="firstname" name="fname" />
+                </div>
+                
+                <div>
+                    <label for="mail">E-mail :</label>
+                    <input type="email" id="mail" name="email" />
+                </div>
+                
+                <div>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message" placeholder="On dit bonjour..."></textarea>
+                </div>
+                
+    
+                <input type="submit" value="S'incrire" />
+    
+            </form>
+        </div>
+        
+        
+        
+    </main>
+    <footer>
+        <p>Réalisé par Charly Wandja en 2021</p>
+    </footer>
+</body>
+</html>
